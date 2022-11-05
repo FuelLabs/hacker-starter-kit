@@ -1,5 +1,11 @@
 A resource for developers preparing to build on Fuel.
 
+## FAQ
+
+Q: How can I define a custom toolchain so I can specify the versioning of `forc-wallet`, `fuel-core`, etc?
+
+A: You can define custom toolchains to easily switch between versions and ensure that your builds always work. The instructions for setting up a custom toolchain can be found [here](https://fuellabs.github.io/fuelup/master/concepts/toolchains.html#custom-toolchains).
+
 ## Developer Resources
 
 [Developer Quickstart Guide](https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html)
