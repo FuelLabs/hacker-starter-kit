@@ -1,5 +1,11 @@
 A resource for developers preparing to build on Fuel.
 
+## Getting Help
+
+The fastest way to get help is by reaching out in the #dev-chat of the Fuel discord. Join the server [here](https://discord.com/invite/fuelnetwork).
+
+It is recommended to use VS code and download the [Live Share extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) so that our team can easily hop into your code to provide support.
+
 ## FAQ
 
 Q: How can I define a custom toolchain so I can specify the versioning of `forc-wallet`, `fuel-core`, etc?
