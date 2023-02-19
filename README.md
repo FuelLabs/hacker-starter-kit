@@ -2,52 +2,83 @@ A resource for developers preparing to build on Fuel.
 
 ## Getting Help
 
-The fastest way to get help is by reaching out in the #dev-chat of the Fuel discord. Join the server [here](https://discord.com/invite/fuelnetwork).
+The fastest way to get help is by posting a question on the Fuel forum. Join the forum [here](https://forum.fuel.network/). To help you as efficiently as possible, please state instructions for reproducing the issue clearly along with the the output logs.
 
-It is recommended to use VS code and download the [Live Share extension](https://marketplace.visualstudio.com/items?itemName=MS-vsliveshare.vsliveshare-pack) so that our team can easily hop into your code to provide support.
+It is recommended to use VS code and download the [Live Share extension](https://code.visualstudio.com/learn/collaboration/live-share) so that our team can easily hop into your code to provide support.
 
-## FAQ
+## FAQs
 
-Q: How can I define a custom toolchain so I can specify the versioning of `forc-wallet`, `fuel-core`, etc?
+1. [What is Fuel?](https://forum.fuel.network/t/welcome-what-is-fuel/7)
+2. [Can I run my own node?](https://forum.fuel.network/t/can-i-run-my-own-node/100)
+3. [What is Sway?](https://forum.fuel.network/t/about-the-sway-category-what-is-sway/25)
+4. [How do I deploy my Sway contract?](https://forum.fuel.network/t/how-do-i-deploy-my-sway-contract/99)
+5. [How do I test my Sway contract](https://forum.fuel.network/t/how-do-i-test-my-sway-contract/97)
+6. [How can I check the max gas allowed for a transaction?](https://forum.fuel.network/t/how-do-i-check-the-max-gas-allowed-for-a-transaction/1557)
+7. [Does Sway have a fallback equivalent](https://forum.fuel.network/t/does-sway-have-a-fallback-equivalent/104)
+8. [Can I declare a `Vec` in a `storage` block?](https://forum.fuel.network/t/can-i-declare-a-vec-in-a-storage-block/115)
+9. [What are predicates in Sway?](https://forum.fuel.network/t/what-is-a-predicate/36)
+10. [Where can I find the Sway standard library and instructions for how to use it?](https://forum.fuel.network/t/does-sway-have-a-standard-library/719)
 
-A: You can define custom toolchains to easily switch between versions and ensure that your builds always work. The instructions for setting up a custom toolchain can be found [here](https://fuellabs.github.io/fuelup/master/concepts/toolchains.html#custom-toolchains).
+Check out more questions asked by the Fuel community on our [forum](https://forum.fuel.network/)!
 
 ## Developer Resources
 
-[Developer Quickstart Guide](https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html)
-- Defining an ABI
-- Smart Contract
-- Testing with the Rust SDK
-- Deploy to Testnet
+### Developer Quickstart
+
+Follow the [Developer Quickstart](https://fuellabs.github.io/fuel-docs/master/developer-quickstart.html) in the Fuel Book to learn how to:
+- Set up the Fuel development environment
+- Define an ABI
+- Write a Sway smart contract
+- Test the contract using the Rust SDK
+- Deploy the contract to the testnet
 - Write a frontend using the TS SDK
 
-[Sway Docs](https://fuellabs.github.io/sway/latest/)
-- All things Sway, our Rust-based programming language.
+### Sway Book
 
-[TS SDK Docs](https://fuellabs.github.io/fuels-ts/)
-- Deploying and calling contracts
-- Generating contract types with TypeChain
-- Building and sending transactions
-- Encoding and decoding contract ABI
+Follow [Sway Book](https://fuellabs.github.io/sway/latest/) for the official Sway documentation and learn about all things Sway—Fuel's own Rust-inspired DSL. Learn various concepts such as:
+- Sway program types
+- Language basics
+- Contract storage, native assets, & access control.
+- Storage vectors & storage maps
+- Testing, & more!
 
-[Rust SDK Docs](https://fuellabs.github.io/fuels-rs/latest/)
+### TS SDK
+
+You can build a frontend for your Sway smart contracts using the TypeScript SDK. Checkout the [TS SDK Docs](https://fuellabs.github.io/fuels-ts/) to understand how the SDK lets you:
+- Deploy and call contracts
+- Generate contract types with TypeChain
+- Build and send transactions
+- Encode and decode contract ABIs
+
+### Rust SDK
+
+You can test your Sway smart contracts using the Rust SDK. Read the official [Rust SDK Docs](https://fuellabs.github.io/fuels-rs/latest/) to understand various concepts such as:
 - Compiling, deploying, and testing Sway contracts
-- Use the Testnet or run a local Fuel node
+- Using the testnet or running a local Fuel node
 - Crafting and signing transactions with hand-crafted scripts or contract calls
 - Generating type-safe Rust bindings of contract ABI methods
-- And more. fuels-rs is still in active development
+- And more!
 
-[Awesome Fuel](https://github.com/FuelLabs/awesome-fuel)
-- A maintained resource of all podcasts, articles, presentations, etc. related to Fuel.
+> ❗️Note that `fuels-rs` is still under active development
 
-## Inspiration - Existing Projects
+### Workshops, Guides, & Examples!
+
+1. [Learnsway-web3rsvp](https://github.com/FuelLabs/learnsway-web3rsvp)
+2. [Learnsway-marketplace](https://github.com/FuelLabs/learnsway-marketplace)
+3. [Sway-farm](https://github.com/sarahschwartz/sway-farm)
+4. [Sway-apps](https://github.com/FuelLabs/sway-applications)
+
+### Awesome Fuel
+
+Check out [Awesome Fuel](https://github.com/FuelLabs/awesome-fuel)—A collection of community resources such as podcasts, articles, presentations, events, & more related to Fuel.
+
+## Inspiration - Existing Projects on Fuel
 
 | Name | Description | Link | Presented At |
 |---|---|---|---|
 |  Authsome | Authsome implements a multi-signature wallet using the predicate system of the Fuel VM and Sway programming language. This multi-signature wallet is then used as the basis for an pluggable auth infrastructure, similar to Web3Auth. | https://taikai.network/ethlisbon/hackathons/ethlisbon-2022/projects/cl9tv1epm14319401w1mf7ltuhm/idea | ETH Lisbon 2022 |
 |  Fuel Price Oracle | Token price (ETH, DAI) oracle for Fuel blockchain. | https://taikai.network/ethlisbon/hackathons/ethlisbon-2022/projects/cl9upb5rc53868701tpdvj6n05d/idea | ETH Lisbon 2022 |
 |  Capitalist Pigs | Gamify staking for fees in a DeFi project using a set of NFTs. | https://taikai.network/ethlisbon/hackathons/ethlisbon-2022/projects/cl9uljahi38530301ttxkbkask0/idea | ETH Lisbon 2022 |
-|  Web3RSVP | An event creation and management platform where users can create new events and rsvp to existing events. | https://github.com/camiinthisthang/learnsway-web3rsvp | Workshop |
 
 ## Project Ideas
 
