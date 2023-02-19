@@ -2,9 +2,13 @@ A resource for developers preparing to build on Fuel.
 
 ## Getting Help
 
-The fastest way to get help is by posting a question on the Fuel forum. Join the forum [here](https://forum.fuel.network/). To help you as efficiently as possible, please state instructions for reproducing the issue clearly along with the the output logs.
+The fastest way to get help is by posting a question on the Fuel forum. Join the forum [here](https://forum.fuel.network/). To help you as efficiently as possible, please ensure the following:
 
-It is recommended to use VS code and download the [Live Share extension](https://code.visualstudio.com/learn/collaboration/live-share) so that our team can easily hop into your code to provide support.
+1. state instructions for reproducing the issue clearly
+2. add the output logs if possible
+3. add the `hackathon` tag in your forum post
+
+> 💡 It is recommended to use VS code and download the [Live Share extension](https://code.visualstudio.com/learn/collaboration/live-share) so that our team can easily hop into your code to provide support.
 
 ## FAQs
 
@@ -79,6 +83,17 @@ Check out [Awesome Fuel](https://github.com/FuelLabs/awesome-fuel)—A collectio
 |  Authsome | Authsome implements a multi-signature wallet using the predicate system of the Fuel VM and Sway programming language. This multi-signature wallet is then used as the basis for an pluggable auth infrastructure, similar to Web3Auth. | https://taikai.network/ethlisbon/hackathons/ethlisbon-2022/projects/cl9tv1epm14319401w1mf7ltuhm/idea | ETH Lisbon 2022 |
 |  Fuel Price Oracle | Token price (ETH, DAI) oracle for Fuel blockchain. | https://taikai.network/ethlisbon/hackathons/ethlisbon-2022/projects/cl9upb5rc53868701tpdvj6n05d/idea | ETH Lisbon 2022 |
 |  Capitalist Pigs | Gamify staking for fees in a DeFi project using a set of NFTs. | https://taikai.network/ethlisbon/hackathons/ethlisbon-2022/projects/cl9uljahi38530301ttxkbkask0/idea | ETH Lisbon 2022 |
+| Nuclear Swap | Stablecoin AMM	| https://github.com/mauricewbr/nuclear_swap | Beyond Monolithic Hakathon |
+| Kitelife | Multisig Predicate | https://github.com/recizk/multisig-predicate | Beyond Monolithic Hakathon |
+| Fuel Ferret | Oracle | https://github.com/Ferret-san | Beyond Monolithic Hakathon |
+| FRC721 | NFT Token contract on Fuel | https://github.com/SwayStar123/FRC721/tree/master | Beyond Monolithic Hakathon |
+| Emacs plugin | Emacs plugin for Sway | https://github.com/hhamud/sway-mode | Beyond Monolithic Hakathon |
+| Chrome Wallet Extension | Wallet extension for chrome | https://github.com/00vian/fision-wallet-hackaton-fuel | Beyond Monolithic Hakathon |
+| DataBits | DAO Voting | https://github.com/Pfed-prog/Fuel_Voting | Beyond Monolithic Hakathon |
+| FuelScape | FuelScape turns player items on RuneScape Classic server into NFTs on the Fuel VM | https://github.com/fuelscape/fuelscape | ETHSF |
+| Sail | Sail is a central limit order book built on Fuel. It uses predicates to keep state bloat minimal. | https://ethglobal.com/showcase/sail-6httb | ETHSF |
+| Fuel Names | Fuel Names is a decentralized naming registar built on Fuel. Fuel names allows users to mint a ".fuel" address, similar to how ENS functions on Ethereum. | https://github.com/ArshKochhar/FuelNames | ETHSF |
+| Thunder | NFT Marketplace | https://thundernft.market/ | ETHBerlin |
 
 ## Project Ideas
 
