@@ -68,7 +68,7 @@ You can test your Sway smart contracts using the Rust SDK. Read the official [Ru
 ### Workshops, Guides, & Examples!
 
 1. [Learnsway-web3rsvp](https://github.com/FuelLabs/learnsway-web3rsvp)
-2. [Learnsway-marketplace](https://github.com/FuelLabs/learnsway-marketplace)
+2. [Learnsway-marketplace](https://github.com/FuelLabs/intro-to-sway)
 3. [Sway-farm](https://github.com/sarahschwartz/sway-farm)
 4. [Sway-apps](https://github.com/FuelLabs/sway-applications)
 
